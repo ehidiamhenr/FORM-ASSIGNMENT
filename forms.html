@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS ASSIGNMENT</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                Edit intro
+                <button type="button" class="close" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+            </div>
+            <img src="https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" height="180px" class="card-img-top" alt="bg image">
+            <div class="card-body">
+            <form>
+                <div class="form-row">
+                  <div class="col">
+                    <label for="first name">First Name*</label>
+                    <input type="text" class="form-control" id="first name">
+                  </div>
+                  <div class="col">
+                    <label for="last name">Last Name*</label>
+                    <input type="text" class="form-control" id="last name">
+                    <a class="float-right" href="#" role="link">Add former name</a>
+                  </div>
+                </div>
+                <br>
+                <div class="form">
+                   <label for="headline">Headline*</label>
+                   <input type="text" class="form-control" id="headline">
+                </div>
+                <br>
+                <div class="form">
+                    <label for="Current position">Current Position</label>
+                    <input type="text" class="form-control" id="current position">
+                    <a class="float-right" href="#" role="link">Add new position</a>
+                </div>
+                <br>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label for="exampleCheck1" class="form-check-label" >Show education in my intro</label>
+                </div>
+                <div class="form">
+                    <label for="education">Education</label>
+                    <input type="text" class="form-control" id="education">
+                    <a class="float-right" href="#" role="link">Add new education</a>
+                </div>
+                <br>
+                <div class="form">
+                    <label for="country/region">Country/Region*</label>
+                    <input type="text" class="form-control" id="country/region">
+                </div>
+                <br>
+                <div class="form">
+                    <label for="location in coutry">Locations in this Country/Region</label>
+                    <input type="text" class="form-control" id="location in country">
+                </div>
+                <br>
+                <div class="form">
+                    <label for="industry">Industry*</label>
+                    <select type="text" class="form-control" id="industry"></select>
+                </div>
+                <div>
+                <br>
+                <p> contact info</p>              
+                </div>
+                <label for="basic-url">profile URL, Phone, Email, Birthday, WeChat ID</label>
+            </form>
+            </div>
+            <div class="card-footer">
+                <button type="button" class="btn btn-primary float float-right">Save</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                Edit experience
+                <button type="button" class="close" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+            </div>
+            <div class="card-body">
+                <div class="form">
+                <label for="title">Title*</label>
+                <input type="text" class="form-control" id="title">
+                </div>
+                <br>
+                <div class="form">
+                <label for="employment">Employment type</label>
+                <select type="text" class="form-control" id="employment">
+                    <option value="">-</option>
+                    <option value="full time">Full-time</option>
+                    <option value="part time">Part-time</option>
+                    <option value="Self-employment">Self-employment</option>
+                    <option value="freelance">Freelance</option>
+                    <option value="contract">Contract</option>
+                    <option value="internship">Internship</option>
+                     <option value="apprenticeship">Apprenticeship</option>
+                </select>
+                </div>
+                <br>
+                <div class="form">
+                <label for="company">Company*</label>
+                <input type="text" class="form-control" id="company">
+                </div>
+                <br>
+                <div class="form">
+                    <label for="location">Location</label>
+                    <input type="text" class="form-control" id="location">
+                </div>
+                <br>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      I am currently working in this role
+                    </label>
+                </div>
+                <div class="form-row">
+                    <div class="col-3">
+                        <label for="month">Start Date*</label>
+                        <select type="text" class="form-control" id="month">
+                          <option value="month">month</option>
+                          <option value="january">January</option>
+                          <option value="february">February</option>
+                          <option value="march">March</option>
+                          <option value="april">April</option>
+                          <option value="may">May</option>
+                          <option value="june">June</option>
+                          <option value="july">July</option>
+                          <option value="august">August</option>
+                          <option value="september">September</option>
+                          <option value="october">October</option>
+                          <option value="november">November</option>
+                          <option value="december">December</option>
+                        </select>
+                    </div>
+                    <div class="col-3">
+                      <label for="year">.</label>
+                      <select type="number" class="form-control" id="year">
+                        <option value="year">Year</option>
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                        <option value="2014">2014</option>
+                        <option value="2013">2013</option>
+                        <option value="2012">2012</option>
+                        <option value="2011">2011</option>
+                        <option value="2010">2010</option>
+                        <option value="2009">2009</option>
+                        <option value="2008">2008</option>
+                        <option value="2007">2007</option>
+                        <option value="2006">2006</option>
+                        <option value="2005">2005</option>
+                        <option value="2004">2004</option>
+                        <option value="2003">2003</option>
+                        <option value="2002">2002</option>
+                        <option value="2001">2001</option>
+                        <option value="2000">2000</option>
+                        <option value="1999">1999</option>
+                        <option value="1998">1998</option>
+                        <option value="1997">1997</option>
+                      </select>
+                    </div> 
+                    <div class="col-3">
+                    <label for="month">End Date*</label>
+                    <select type="text" class="form-control" id="month">
+                        <option value="month">month</option>
+                        <option value="january">January</option>
+                        <option value="february">February</option>
+                        <option value="march">March</option>
+                        <option value="april">April</option>
+                        <option value="may">May</option>
+                        <option value="june">June</option>
+                        <option value="july">July</option>
+                        <option value="august">August</option>
+                        <option value="september">September</option>
+                        <option value="october">October</option>
+                        <option value="november">November</option>
+                        <option value="december">December</option>
+                      </select>
+                    </div>
+                    <div class="col-3">
+                      <label for="year">.</label>
+                      <select type="number" class="form-control" id="year">
+                        <option value="year">Year</option>
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                        <option value="2014">2014</option>
+                        <option value="2013">2013</option>
+                        <option value="2012">2012</option>
+                        <option value="2011">2011</option>
+                        <option value="2010">2010</option>
+                        <option value="2009">2009</option>
+                        <option value="2008">2008</option>
+                        <option value="2007">2007</option>
+                        <option value="2006">2006</option>
+                        <option value="2005">2005</option>
+                        <option value="2004">2004</option>
+                        <option value="2003">2003</option>
+                        <option value="2002">2002</option>
+                        <option value="2001">2001</option>
+                        <option value="2000">2000</option>
+                        <option value="1999">1999</option>
+                        <option value="1998">1998</option>
+                        <option value="1997">1997</option>
+                      </select>
+                    </div>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="descrip">Description</label>
+                    <textarea class="form-control" rows="5" cols="150" id="descrip"></textarea>
+                </div>
+                <br>
+                <div>
+                    <h6>Media</h6>
+                    <span>Add or link to external documents, photo, sites, videos, and presentations.</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button type="button" class="btn btn-primary border btn-block">Upload</button>
+                    </div>
+                    <div class="col">
+                        <button type="button" class="btn btn-white border btn-block">Link</button>                   
+                    </div>
+                </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                Edit education
+                <button type="button" class="close" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+            </div>
+            <div class="card-body"> 
+                <div class="form">
+                    <label for="Sch">School*</label>
+                    <input type="text" class="form-control" id="Sch">
+                </div>
+                <br>
+                <div class="form">
+                    <label for="Deg">Degree*</label>
+                    <input type="text" class="form-control" id="Deg">
+                </div>
+                <br>
+                <div class="form">
+                    <label for="Study">Field of Study</label>
+                    <input type="text" class="form-control" id="Study">
+                </div> 
+                <br>
+                <div class="form-row">
+                    <div class="form-group col-6">
+                        <label for="year">Start Year</label>
+                        <select type="year" class="form-control" id="year">
+                            <option value="year">Year</option>
+                            <option value="2020">2020</option>
+                            <option value="2019">2019</option>
+                            <option value="2018">2018</option>
+                            <option value="2017">2017</option>
+                            <option value="2016">2016</option>
+                            <option value="2015">2015</option>
+                            <option value="2014">2014</option>
+                            <option value="2013">2013</option>
+                            <option value="2012">2012</option>
+                            <option value="2011">2011</option>
+                            <option value="2010">2010</option>
+                            <option value="2009">2009</option>
+                            <option value="2008">2008</option>
+                            <option value="2007">2007</option>
+                            <option value="2006">2006</option>
+                            <option value="2005">2005</option>
+                            <option value="2004">2004</option>
+                            <option value="2003">2003</option>
+                            <option value="2002">2002</option>
+                            <option value="2001">2001</option>
+                            <option value="2000">2000</option>
+                            <option value="1999">1999</option>
+                            <option value="1998">1998</option>
+                            <option value="1997">1997</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div class="form-group col-6 inline-block">
+                        <label for="year">End Year(or expected)</label>
+                        <select type="year" class="form-conrol" id="year">
+                            <option value="year">Year</option>
+                            <option value="2020">2020</option>  
+                            <option value="2019">2019</option>
+                            <option value="2018">2018</option>
+                            <option value="2017">2017</option>
+                            <option value="2016">2016</option>
+                            <option value="2015">2015</option>
+                            <option value="2014">2014</option>
+                            <option value="2013">2013</option>
+                            <option value="2012">2012</option>
+                            <option value="2011">2011</option>
+                            <option value="2010">2010</option>
+                            <option value="2009">2009</option>
+                            <option value="2008">2008</option>
+                            <option value="2007">2007</option>
+                            <option value="2006">2006</option>
+                            <option value="2005">2005</option>
+                            <option value="2004">2004</option>
+                            <option value="2003">2003</option>
+                            <option value="2002">2002</option>
+                            <option value="2001">2001</option>
+                            <option value="2000">2000</option>
+                            <option value="1999">1999</option>
+                            <option value="1998">1998</option>
+                            <option value="1997">1997</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group"> 
+                        <label for="grade">Grade</label>
+                        <input class="form-control" id="grade">
+                    </div>
+                    <div class="form-group">
+                        <label for="activities">Activities and societies</label>
+                        <textarea class="form-control" rows="5" cols="150" id="activities"></textarea>
+                    </div>
+                    <span> Ex: Alpha Phi Omega, Marching Band, Volleyball</span>
+                    <br>
+                    <div class="form-group">
+                        <label for="descrip">Description</label>
+                        <textarea class="form-control" rows="5" cols="150" id="descrip"></textarea>
+                    </div>
+                <div></div>
+                    <h5>Media</h5>
+                </div>
+                    <p>Add or link to external documents, photo, sites, video, and presentations.</p>
+                <div class="row">
+                    <div class="col">
+                        <button type="button" class="btn btn-primary border btn-block">Upload</button>
+                    </div>
+                    <div class="col">
+                        <button type="button" class="btn btn-white border btn-block">Link</button>
+                    </div>
+                </div>
+                <br>
+                <div class="card">
+                    <div class="card-header">
+                        Add Skills
+                        <button type="button" class="close" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                    </div>
+                    <div class="card-body"> 
+                        <div class="form">
+                            <input type="text" class="form-control" placeholder="skill (ex:Data Analysis)">
+                            <p>You can add 50 more skills</p>
+
+                            <br>
+                            <h4>Suggested skils based off your profile:</h4>
+
+                            <div class="row"> 
+                                <div class="col-4">
+                                    <input type="text" class="form-control rounded-pill" placeholder="porfolio Management +">
+                                </div>
+                                <div class="col-2">
+                                    <input type="text" class="form-control rounded-pill" placeholder="Cross Selling +">
+                                </div>
+                                <div class="col-6">
+                                    <input type="text" class="form-control rounded-pill" placeholder="Business Relationship Management+"> 
+                                </div>  
+                            </div>
+                            <BR>
+                            <div class="row">
+                                <div class="col-2">
+                                    <button type="text" class="btn btn-grey rounded-pill" placeholder="Credit Risk +"></button>
+                                </div>
+                                <div class=" col-2">
+                                    <button type="text" class=" btn btn-grey rounded-pill" placeholder="KYC+"></button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>        
+                </div>
+            </div>                                                                                                                                                                                                                                                   
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
